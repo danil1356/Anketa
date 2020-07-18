@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+p
+{
+color: black;
+}
+
+body 
+{ 
+background: url() no-repeat; 
+background-size: 100% 100%;
+}
+</style>
+
+<title>Отдел кадров</title>
+
+<body>
+<p></p>
+<p></p>
+
+<p>Анкета трудоустраивающегося:</p>
+<p class="alert alert-secondary">Имя:<input type="text" class = "form-control" placeholder="Введите имя" id="1"></p>
+<p class="alert alert-secondary">Фамилия:  	 <input type="text" class = "form-control" placeholder="Введите фамилию" id="2"></p>
+<p class="alert alert-secondary">Отчество: 	 <input type="text" class = "form-control" placeholder="Введите отчество" id="3"></p>
+<label for="woow">Выберите образование: </label>
+<select multiple class="form-control" id="woow">
+  <option value="nap1">Среднее</option>
+  <option value="nap2">Начальное</option>
+  <option value="nap3">Высшее</option>
+</select>
+<p></p>
+<label for="wooow">Выберите специальность: </label>
+<select multiple class="form-control" id="wooow">
+  <option value="napp1">Программист</option>
+  <option value="napp2">Преподаватель</option>
+  <option value="napp3">Репетитор</option>
+</select>
+
+
+<H5 id="infa"> </H5>
+<H5 id="wot"> </H5>
+<H5 id="woot"> </H5>
+
+<button onclick="rabota(), dapt();" class="btn btn-success btn-sm"> Результат </button>
+
+</body>
+
+<script src = "my.js">
+</script>
+
+</html>
